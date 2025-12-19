@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai - Branded Residences by Ashizawa</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        .!rounded-button { border-radius: 8px !important; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2D1B14',
+                        secondary: '#8B7355'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header class="w-full bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-12">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                        <div class="w-6 h-6 border-2 border-white rounded-full border-r-transparent transform rotate-45"></div>
+                    </div>
+                    <div>
+                        <div class="text-2xl font-bold text-primary tracking-wider">BONSAI</div>
+                        <div class="text-xs text-secondary tracking-wide">BRANDED RESIDENCES BY ASHIZAWA</div>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">HOME</a>
+                    <a href="#philosophy" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">PHILOSOPHY</a>
+                    <a href="#architect" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">ARCHITECT</a>
+                    <a href="#projects" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">PROJECTS</a>
+                    <a href="#contact" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">CONTACT</a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">EN</button>
+                <div class="w-px h-4 bg-gray-300"></div>
+                <button class="text-sm font-medium text-gray-700 hover:text-primary transition-colors">AR</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=modern%20minimalist%20japanese%20architecture%20residential%20building%20with%20clean%20lines%20warm%20beige%20stone%20facade%20large%20glass%20windows%20desert%20landscaping%20with%20sculptural%20cacti%20and%20native%20plants%20contemporary%20design%20fusion%20of%20japanese%20minimalism%20with%20middle%20eastern%20context%20serene%20natural%20lighting&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent"></div>
+        <div class="relative w-full">
+            <div class="max-w-7xl mx-auto px-6 py-20">
+                <div class="max-w-2xl">
+                    <h1 class="text-6xl font-light text-primary mb-6 leading-tight">
+                        OASIS OF<br>
+                        <span class="font-medium">SERENITY</span>
+                    </h1>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Discover the harmony between Japanese minimalism and contemporary living. Where every space tells a story of tranquility, precision, and timeless beauty.
+                    </p>
+                    <div class="flex items-center space-x-6">
+                        <button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                            Explore Residences
+                        </button>
+                        <button class="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-play-circle-line"></i>
+                            </div>
+                            <span class="text-sm font-medium">Watch Story</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonsai Tree Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-light text-primary mb-8">BONSAI TREE</h2>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Bonsai is a traditional Japanese art that involves growing trees in small containers. It is an art that blends horticulture, design, and meditation, requiring patience, precision, and skill. It is a craft passed down from generation to generation, rooted in a spirit of respect and contemplation.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        This quiet passion has become a reflection of refined taste and a part of the Japanese cultural identity, where great beauty is found in small details. Bonsai is often practiced by businessmen and members of the social elite, as owning a bonsai tree in Japan is considered a symbol of sophistication, calm presence, and deep appreciation for silent beauty.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="https://readdy.ai/api/search-image?query=elegant%20bonsai%20tree%20with%20graceful%20curved%20branches%20and%20lush%20green%20foliage%20in%20simple%20white%20ceramic%20pot%20on%20wooden%20platform%20traditional%20japanese%20interior%20with%20warm%20natural%20lighting%20and%20shoji%20screen%20background%20serene%20minimalist%20composition&width=600&height=700&seq=bonsai001&orientation=portrait" 
+                         alt="Bonsai Tree" 
+                         class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-light text-primary mb-8">
+                    BONSAI PHILOSOPHY<br>
+                    <span class="text-secondary">ENABLES US TO SEE</span><br>
+                    <span class="font-medium">BEAUTY IN SIMPLICITY</span>
+                </h2>
+                <div class="w-24 h-px bg-secondary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-12 rounded-2xl">
+                    <h3 class="text-2xl font-medium text-primary mb-6">BONSAI PHILOSOPHY</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Bonsai is not just a small tree in a pot — it is the heart of a timeless Japanese art form that embodies harmony between nature and human presence. It reveals beauty in its purest form, through delicate details crafted within limited space.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Bonsai is a deep philosophy that teaches serenity, mindfulness, and the ability to see beauty in simplicity. At Bonsai, we bring this philosophy to life through our residential projects — compact spaces designed with thoughtful intention and meticulous attention to detail.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Every corner is an investment in experience, every square meter is used with intelligence, and every element reflects elegance born from simplicity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oasis of Serenity Section -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-light mb-8">
+                        OASIS OF<br>
+                        <span class="font-medium">SERENITY</span>
+                    </h2>
+                    <p class="text-white/90 leading-relaxed mb-6">
+                        Our spaces are meticulously designed to offer a peaceful escape from the noise of the city — where calm becomes a language that speaks to every part of you. Japanese designer Keiji Ashizawa believes that true serenity is felt through the senses.
+                    </p>
+                    <p class="text-white/90 leading-relaxed mb-6">
+                        What you see reflects purity in color and balance in form. What you touch radiates warmth and comfort. What you hear whispers with the gentleness of nature. Even the scents that fill the air are carefully curated to awaken a deep sense of harmony and ease.
+                    </p>
+                    <p class="text-white/90 leading-relaxed">
+                        Every corner has been thoughtfully crafted to offer a sensory journey toward inner stillness. This is not just a place to live — it is a lived experience that embraces all of you.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="https://readdy.ai/api/search-image?query=modern%20minimalist%20residential%20interior%20with%20japanese%20design%20elements%20clean%20lines%20natural%20materials%20warm%20wood%20tones%20large%20windows%20with%20natural%20light%20serene%20living%20space%20contemporary%20furniture%20peaceful%20atmosphere&width=600&height=500&seq=interior001&orientation=landscape" 
+                         alt="Serene Interior" 
+                         class="w-full h-auto object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="text-sm text-secondary font-medium tracking-wider mb-4">VIDEOS</div>
+                <h2 class="text-4xl font-light text-primary mb-8">SERENITY</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto">
+                    Discover how serenity at Bonsai transforms into a sensory experience filled with tranquility and quiet beauty
+                </p>
+            </div>
+            
+            <div class="relative max-w-4xl mx-auto">
+                <div class="aspect-video bg-gray-200 rounded-2xl overflow-hidden relative">
+                    <img src="https://readdy.ai/api/search-image?query=cinematic%20view%20of%20modern%20japanese%20inspired%20residential%20architecture%20with%20natural%20lighting%20serene%20atmosphere%20contemporary%20design%20elements%20peaceful%20setting%20for%20architectural%20video%20presentation&width=800&height=450&seq=video001&orientation=landscape" 
+                         alt="Video Thumbnail" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                        <button class="w-20 h-20 bg-white rounded-full flex items-center justify-center hover:scale-105 transition-transform">
+                            <div class="w-6 h-6 flex items-center justify-center ml-1">
+                                <i class="ri-play-fill text-2xl text-primary"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architect Section -->
+    <section id="architect" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="https://readdy.ai/api/search-image?query=professional%20black%20and%20white%20portrait%20of%20middle%20aged%20japanese%20architect%20man%20in%20casual%20button%20up%20shirt%20arms%20crossed%20confident%20pose%20studio%20lighting%20clean%20background%20architectural%20professional%20headshot&width=600&height=700&seq=architect001&orientation=portrait" 
+                         alt="Keiji Ashizawa" 
+                         class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <div class="text-sm text-secondary font-medium tracking-wider mb-4">JAPANESE ARCHITECT</div>
+                    <h2 class="text-4xl font-light text-primary mb-8">Keiji Ashizawa</h2>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Keiji Ashizawa is a world-renowned Japanese architect, celebrated for his unique philosophy known as "honest design." This philosophy embraces profound simplicity and prioritizes function without compromising on beauty.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-8">
+                        Ashizawa does not limit himself to designing buildings; his creativity extends to interior design and furniture, granting him a holistic vision that harmonizes all elements of a space into one cohesive experience.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-lg font-medium text-primary mb-3">WORLD RENOWNED</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Ashizawa designs furniture for some of the world's leading furniture brands, such as IKEA and Karimoku, in collaboration with renowned international designers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonsai Story Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="flex items-center justify-center space-x-3 mb-6">
+                    <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                        <div class="w-4 h-4 border-2 border-white rounded-full border-r-transparent transform rotate-45"></div>
+                    </div>
+                    <span class="text-lg font-medium text-primary">BONSAI STORY</span>
+                </div>
+                <h2 class="text-4xl font-light text-primary mb-8">Discover Our Journey</h2>
+                <p class="text-gray-700 max-w-3xl mx-auto leading-relaxed">
+                    Discover the story of Bonsai with Japanese architect Keiji Ashizawa, as he shares his experience visiting Saudi Arabia for the first time.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="ri-lightbulb-line text-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-primary mb-4">Vision</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Creating spaces that embody the essence of Japanese minimalism while respecting local culture and climate.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="ri-compass-line text-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-primary mb-4">Journey</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        From Tokyo to Riyadh, bridging two cultures through thoughtful design and shared values of harmony.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="ri-heart-line text-xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-primary mb-4">Philosophy</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Honest design that celebrates simplicity, functionality, and the beauty found in everyday moments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Showcase -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-primary mb-8">Modern Residential Living</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto">
+                    Experience the perfect fusion of Japanese design principles with contemporary Saudi Arabian architecture
+                </p>
+            </div>
+            
+            <div class="space-y-16">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-medium text-primary mb-6">Exterior Design</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Clean geometric lines meet warm natural materials, creating facades that breathe with the desert landscape while maintaining Japanese precision and attention to detail.
+                        </p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Natural stone and wood integration</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Climate-responsive design elements</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Seamless indoor-outdoor flow</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=modern%20residential%20architecture%20exterior%20with%20japanese%20minimalist%20influence%20warm%20beige%20stone%20facade%20large%20glass%20windows%20geometric%20clean%20lines%20desert%20landscaping%20contemporary%20design%20middle%20eastern%20context&width=600&height=400&seq=exterior001&orientation=landscape" 
+                             alt="Exterior Design" 
+                             class="w-full h-auto object-cover rounded-2xl shadow-lg">
+                    </div>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="lg:order-2">
+                        <h3 class="text-2xl font-medium text-primary mb-6">Interior Spaces</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Every interior space is crafted to promote tranquility and mindfulness, with natural materials and carefully considered proportions that honor both Japanese aesthetics and modern comfort.
+                        </p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Open-plan living with defined zones</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Natural light optimization</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Minimalist storage solutions</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:order-1 relative">
+                        <img src="https://readdy.ai/api/search-image?query=modern%20minimalist%20interior%20living%20space%20with%20japanese%20design%20influence%20natural%20wood%20elements%20clean%20lines%20neutral%20colors%20large%20windows%20natural%20light%20contemporary%20furniture%20serene%20atmosphere&width=600&height=400&seq=interior002&orientation=landscape" 
+                             alt="Interior Spaces" 
+                             class="w-full h-auto object-cover rounded-2xl shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light mb-8">Experience Bonsai Living</h2>
+                <p class="text-white/90 max-w-2xl mx-auto">
+                    Discover how Japanese design philosophy can transform your living experience. Connect with us to learn more about our residential projects.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div>
+                    <h3 class="text-2xl font-medium mb-8">Get in Touch</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                                <i class="ri-phone-line text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="text-white/70 text-sm">Phone</div>
+                                <div class="text-white">+966 11 234 5678</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                                <i class="ri-mail-line text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="text-white/70 text-sm">Email</div>
+                                <div class="text-white">info@bonsai.sa</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center">
+                                <i class="ri-map-pin-line text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="text-white/70 text-sm">Location</div>
+                                <div class="text-white">Riyadh, Saudi Arabia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 p-8 rounded-2xl">
+                    <form class="space-y-6">
+                        <div>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:border-white/40">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" 
+                                   class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:border-white/40">
+                        </div>
+                        <div>
+                            <textarea rows="4" placeholder="Your Message" 
+                                      class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/60 focus:outline-none focus:border-white/40 resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-white text-primary py-3 !rounded-button hover:bg-white/90 transition-colors whitespace-nowrap">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                            <div class="w-5 h-5 border-2 border-primary rounded-full border-r-transparent transform rotate-45"></div>
+                        </div>
+                        <div>
+                            <div class="text-xl font-bold tracking-wider">BONSAI</div>
+                            <div class="text-xs text-gray-400 tracking-wide">BRANDED RESIDENCES BY ASHIZAWA</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed max-w-md">
+                        Creating harmonious living spaces that blend Japanese minimalism with contemporary Saudi Arabian architecture.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-medium mb-6">Quick Links</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#philosophy" class="hover:text-white transition-colors">Philosophy</a></li>
+                        <li><a href="#architect" class="hover:text-white transition-colors">Architect</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-medium mb-6">Follow Us</h4>
+                    <div class="flex items-center space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 Bonsai Residences. All rights reserved. | Designed by Keiji Ashizawa</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="navigation-scroll">
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('header');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    header.classList.add('bg-white/95', 'backdrop-blur-sm');
+                } else {
+                    header.classList.remove('bg-white/95', 'backdrop-blur-sm');
+                }
+            });
+        });
+    </script>
+
+    <script id="smooth-scroll">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script id="form-handling">
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = new FormData(this);
+                    const name = this.querySelector('input[type="text"]').value;
+                    const email = this.querySelector('input[type="email"]').value;
+                    const message = this.querySelector('textarea').value;
+                    
+                    if (name && email && message) {
+                        alert('Thank you for your message! We will get back to you soon.');
+                        this.reset();
+                    } else {
+                        alert('Please fill in all fields.');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
